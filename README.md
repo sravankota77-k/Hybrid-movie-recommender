@@ -1,29 +1,27 @@
 # Hybrid Movie Recommender
 
-## Overview
-A hybrid movie recommendation system built using NLP, TF-IDF, cosine similarity, and weighted rating ranking.
+## Project Overview
+Developed a hybrid movie recommendation system using Natural Language Processing and Machine Learning techniques to recommend similar movies based on content and ratings.
 
-## Features
-- Content-based filtering
-- Rating-based ranking
-- Hybrid recommendation approach
+## Key Features
+- Content-based recommendation using TF-IDF and cosine similarity  
+- Hybrid ranking using weighted movie ratings  
+- Movie similarity prediction based on genres, keywords, and overview  
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-
-## Dataset
-TMDB 5000 Movie Dataset  
-https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+## Tech Stack
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
 
 ## Sample Recommendation
-Input: Avatar
+
+Input:
+recommend("Avatar")
 
 Output:
-- Alien
-- 2001: A Space Odyssey
-- Aliens
-- The Thing
+- Alien  
+- 2001: A Space Odyssey  
+- Aliens  
+- The Thing  
 - Gattaca
